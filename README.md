@@ -255,7 +255,7 @@ graph LR
 
 ### 📞 **Sacred Contact**
 
-[![Email](https://img.shields.io/badge/Email-ayodhyablossom%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayodhyablossom@gmail.com)
+[![Email](https://img.shields.io/badge/Email-ayodhyablossom%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:awnishkj2004@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-awnishkj-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/awnishkj)
 
 ---
