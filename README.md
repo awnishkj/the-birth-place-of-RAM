@@ -1,179 +1,269 @@
-# 🕉️ The Divine of Ayodhya - Ram Janmabhoomi
+<div align="center">
 
-A comprehensive web application dedicated to the sacred city of Ayodhya, the birthplace of Lord Ram. This platform provides pilgrims and devotees with essential information about temples, accommodations, food, travel, and spiritual experiences in Ayodhya.
+# 🕉️ The Divine of Ayodhya - Ram Janmabhoomi 🚩
 
-## ✨ Features
+[![GitHub stars](https://img.shields.io/github/stars/awnishkj/the-birth-place-of-RAM?style=for-the-badge&color=orange)](https://github.com/awnishkj/the-birth-place-of-RAM/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/awnishkj/the-birth-place-of-RAM?style=for-the-badge&color=blue)](https://github.com/awnishkj/the-birth-place-of-RAM/network)
+[![GitHub issues](https://img.shields.io/github/issues/awnishkj/the-birth-place-of-RAM?style=for-the-badge&color=red)](https://github.com/awnishkj/the-birth-place-of-RAM/issues)
+[![License](https://img.shields.io/github/license/awnishkj/the-birth-place-of-RAM?style=for-the-badge&color=green)](LICENSE)
 
-### 🏛️ Sacred Places
-- **Ram Mandir** - Complete information about the main temple
-- **Kanak Bhawan** - Details about Sita's palace
-- **Saryu Ghat** - Information about the holy river banks
-- **Hanuman Garhi** - Guide to the Hanuman temple
-- **Raja Dasharath Mahal** - Historical palace information
+### 🙏 *"रघुकुल रीत सदा चली आई, प्राण जाय पर वचन न जाई"* 🙏
 
-### 🏨 Accommodation & Services
-- **Dharmshala** - Religious guest houses
-- **Hotels** - Modern accommodation options
-- **Bhojnalaya** - Traditional dining halls
-- **Restaurants** - Local dining options
+**A comprehensive spiritual platform dedicated to the sacred city of Ayodhya, the birthplace of Lord Ram**
 
-### 🎯 Additional Features
-- **Travel Guide** - Transportation and route information
-- **Prasad Information** - Sacred offerings and their significance
-- **Photo Gallery** - Beautiful images of Ayodhya
-- **Contact Form** - Get in touch with us
-- **Registration** - User account management
-
-## 🛠️ Technology Stack
-
-### Frontend
-- **React 18** with TypeScript
-- **Vite** for fast development and building
-- **Tailwind CSS** for styling
-- **Shadcn/ui** for modern UI components
-- **React Router** for navigation
-- **React Query** for data fetching
-- **Lucide React** for icons
-
-### Backend
-- **Node.js** with Express
-- **Nodemailer** for email functionality
-- **CORS** for cross-origin requests
-- **dotenv** for environment variables
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v18 or higher)
-- npm or yarn package manager
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/awnishkj/the-birth-place-of-RAM.git
-   cd the-birth-place-of-RAM
-   ```
-
-2. **Install Frontend Dependencies**
-   ```bash
-   cd frontend
-   npm install
-   ```
-
-3. **Install Backend Dependencies**
-   ```bash
-   cd ../server
-   npm install
-   ```
-
-4. **Environment Setup**
-   Create a `.env` file in the server directory:
-   ```env
-   EMAIL_USER=your-email@gmail.com
-   EMAIL_PASS=your-app-password
-   ```
-
-### Running the Application
-
-1. **Start the Backend Server**
-   ```bash
-   cd server
-   npm run dev
-   ```
-   Server will run on `http://localhost:5000`
-
-2. **Start the Frontend Development Server**
-   ```bash
-   cd frontend
-   npm run dev
-   ```
-   Frontend will run on `http://localhost:5173`
-
-### Building for Production
-
-1. **Build the Frontend**
-   ```bash
-   cd frontend
-   npm run build
-   ```
-
-2. **Start Production Server**
-   ```bash
-   cd server
-   npm start
-   ```
-
-## 📁 Project Structure
-
-```
-the-divine-of-ayodhya/
-├── frontend/                 # React frontend application
-│   ├── src/
-│   │   ├── components/      # Reusable UI components
-│   │   ├── pages/          # Page components
-│   │   ├── lib/            # Utility functions
-│   │   └── App.tsx         # Main application component
-│   ├── public/             # Static assets
-│   └── package.json        # Frontend dependencies
-├── server/                  # Node.js backend
-│   ├── server.js           # Express server setup
-│   ├── .env               # Environment variables (not in repo)
-│   └── package.json        # Backend dependencies
-└── README.md               # Project documentation
-```
-
-## 🎨 UI Components
-
-The application uses a modern design system with:
-- **Responsive Design** - Works on all device sizes
-- **Dark/Light Mode** - Theme switching capability
-- **Accessibility** - WCAG compliant components
-- **Modern Animations** - Smooth transitions and effects
-
-## 📧 Contact Form Integration
-
-The contact form is integrated with email functionality:
-- Form submissions are sent via Nodemailer
-- Gmail SMTP integration
-- Form validation and error handling
-- Success/failure notifications
-
-## 🔧 Development
-
-### Available Scripts
-
-**Frontend:**
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-
-**Backend:**
-- `npm run dev` - Start development server with nodemon
-- `npm start` - Start production server
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the ISC License.
-
-## 🙏 Acknowledgments
-
-- Dedicated to Lord Ram and the sacred city of Ayodhya
-- Thanks to all devotees and pilgrims who inspired this project
-- Built with love and devotion for the spiritual community
-
-## 📞 Contact
-
-For any queries or suggestions, please use the contact form on the website or reach out to us at ayodhyablossom@gmail.com
+*Discover • Explore • Experience the Divine Journey*
 
 ---
 
-**Jai Shri Ram! 🚩**
+</div>
+
+## ✨ Features & Highlights
+
+<table>
+<tr>
+<td width="50%">
+
+### 🏛️ **Sacred Places**
+```
+🕉️ Ram Mandir          - Main temple complex
+🏰 Kanak Bhawan        - Sita's golden palace  
+🌊 Saryu Ghat          - Holy river banks
+🐒 Hanuman Garhi       - Hanuman's fortress
+👑 Raja Dasharath Mahal - Royal palace
+```
+
+### 🏨 **Accommodation & Services**
+```
+🏠 Dharmshala    - Religious guest houses
+🏨 Hotels        - Modern accommodations
+🍽️ Bhojnalaya    - Traditional dining halls
+🍴 Restaurants   - Local cuisine options
+```
+
+</td>
+<td width="50%">
+
+### 🎯 **Digital Experience**
+```
+📱 Responsive Design    - Works on all devices
+🎨 Beautiful UI         - Modern spiritual theme
+📧 Contact System       - Email integration
+📸 Photo Gallery        - Sacred site images
+🗺️ Travel Guide        - Route information
+🎁 Prasad Info         - Sacred offerings
+```
+
+### 🔧 **Technical Features**
+```
+⚡ Fast Loading        - Optimized performance
+🔒 Secure Forms        - Protected data
+🌐 Multi-page App      - Complete navigation
+📱 Mobile Friendly     - Touch optimized
+```
+
+</td>
+</tr>
+</table>
+
+## 🛠️ Technology Stack
+
+<div align="center">
+
+| **Frontend** | **Backend** | **Tools & Libraries** |
+|:---:|:---:|:---:|
+| ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white) | ![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white) | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) | ![Nodemailer](https://img.shields.io/badge/Nodemailer-Email-0F1419?style=for-the-badge&logo=maildotru&logoColor=white) | ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) |
+| ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) | ![CORS](https://img.shields.io/badge/CORS-Enabled-FF6B6B?style=for-the-badge) | ![Shadcn/ui](https://img.shields.io/badge/Shadcn/ui-000000?style=for-the-badge&logo=shadcnui&logoColor=white) |
+
+</div>
+
+## 🚀 Quick Start Guide
+
+<div align="center">
+
+### 📋 Prerequisites
+![Node.js](https://img.shields.io/badge/Node.js-v18+-339933?style=flat-square&logo=node.js&logoColor=white)
+![npm](https://img.shields.io/badge/npm-latest-CB3837?style=flat-square&logo=npm&logoColor=white)
+
+</div>
+
+### 📥 Installation
+
+<details>
+<summary><b>🔽 Click to expand installation steps</b></summary>
+
+```bash
+# 1️⃣ Clone the sacred repository
+git clone https://github.com/awnishkj/the-birth-place-of-RAM.git
+cd the-birth-place-of-RAM
+
+# 2️⃣ Install Frontend Dependencies
+cd frontend
+npm install
+
+# 3️⃣ Install Backend Dependencies  
+cd ../server
+npm install
+
+# 4️⃣ Environment Setup
+# Create .env file in server directory
+echo "EMAIL_USER=your-email@gmail.com" > server/.env
+echo "EMAIL_PASS=your-app-password" >> server/.env
+```
+
+</details>
+
+### 🏃‍♂️ Running the Application
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🖥️ **Development Mode**
+```bash
+# Terminal 1 - Backend
+cd server
+npm run dev
+# 🌐 Server: http://localhost:5000
+
+# Terminal 2 - Frontend  
+cd frontend
+npm run dev
+# 🌐 Frontend: http://localhost:5173
+```
+
+</td>
+<td width="50%">
+
+#### 🚀 **Production Mode**
+```bash
+# Build Frontend
+cd frontend
+npm run build
+
+# Start Production Server
+cd ../server
+npm start
+```
+
+</td>
+</tr>
+</table>
+
+## 📁 Project Architecture
+
+<div align="center">
+
+```
+🕉️ THE DIVINE OF AYODHYA 🕉️
+├── 🎨 frontend/                    # React Spiritual UI
+│   ├── 📱 src/
+│   │   ├── 🧩 components/         # Sacred UI Components
+│   │   ├── 📄 pages/             # Temple Pages
+│   │   ├── 🔧 lib/               # Divine Utilities
+│   │   └── ⚛️ App.tsx            # Main Temple App
+│   ├── 🖼️ public/                # Sacred Assets
+│   └── 📦 package.json           # Frontend Dependencies
+├── 🖥️ server/                     # Node.js Divine Backend
+│   ├── 🚀 server.js              # Express Temple Server
+│   ├── 🔐 .env                   # Sacred Environment
+│   └── 📦 package.json           # Backend Dependencies
+└── 📖 README.md                   # Divine Documentation
+```
+
+</div>
+
+## 🎨 Design Philosophy
+
+<div align="center">
+
+| **🎯 Design Principle** | **✨ Implementation** |
+|:---:|:---:|
+| 📱 **Responsive** | Works seamlessly on all devices |
+| 🌙 **Theme Support** | Light/Dark mode with spiritual colors |
+| ♿ **Accessible** | WCAG compliant for all devotees |
+| 🎭 **Animated** | Smooth divine transitions |
+
+</div>
+
+## 📧 Divine Communication
+
+<table>
+<tr>
+<td width="50%">
+
+### 📮 **Contact System**
+- 📧 Nodemailer integration
+- 🔒 Secure Gmail SMTP
+- ✅ Form validation
+- 🔔 Real-time notifications
+
+</td>
+<td width="50%">
+
+### 🛠️ **Available Scripts**
+```bash
+# Frontend Commands
+npm run dev      # 🔥 Development
+npm run build    # 📦 Production Build
+npm run preview  # 👀 Preview Build
+
+# Backend Commands  
+npm run dev      # 🔥 Dev with Nodemon
+npm start        # 🚀 Production Server
+```
+
+</td>
+</tr>
+</table>
+
+## 🤝 Contributing to the Divine Mission
+
+<div align="center">
+
+### 🌟 **How to Contribute**
+
+```mermaid
+graph LR
+    A[🍴 Fork] --> B[🌿 Branch]
+    B --> C[💻 Code]
+    C --> D[📝 Commit]
+    D --> E[🚀 Push]
+    E --> F[🔄 PR]
+```
+
+</div>
+
+1. 🍴 **Fork** the repository
+2. 🌿 **Create** your feature branch (`git checkout -b feature/DivineBlessings`)
+3. 💻 **Commit** your changes (`git commit -m 'Add divine feature'`)
+4. 🚀 **Push** to the branch (`git push origin feature/DivineBlessings`)
+5. 🔄 **Open** a Pull Request
+
+## 📜 License & Acknowledgments
+
+<div align="center">
+
+### 📄 **License**
+![License](https://img.shields.io/badge/License-ISC-blue?style=for-the-badge)
+
+### 🙏 **Divine Acknowledgments**
+
+**🕉️ Dedicated to Lord Ram and the sacred city of Ayodhya 🕉️**
+
+*Built with devotion for the spiritual community*
+
+### 📞 **Sacred Contact**
+
+[![Email](https://img.shields.io/badge/Email-ayodhyablossom%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayodhyablossom@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-awnishkj-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/awnishkj)
+
+---
+
+<h2>🚩 जय श्री राम! 🚩</h2>
+
+*"सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः"*
+
+**May all beings be happy and free from illness**
+
+</div>
